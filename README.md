@@ -9,6 +9,7 @@ This repository contains Some of simple Bash scripts, I wrote them while studyin
 
 # Hello World
 This is our first script
+
 **Example Usage:**
 ```shell
 $ ./hello_world.sh "
@@ -17,6 +18,7 @@ Hello,  World
 
 # File Status
 a script that Evaluate the status of a file. It demonstrates some of the file expressions.
+
 **Example Usage:**
 ```shell
 $ ./file_status.sh "
@@ -29,6 +31,7 @@ Enter the file name: /home/khaled
 
 # Hours
 script to count files by modification time.
+
 **Example Usage:**
 ```shell
 $ ./hours.sh /bin "
@@ -53,6 +56,7 @@ Total files = 1566
 
 # System Information
 Program to output system information to an html page.
+
 **Example Usage:**
 ```shell
 $ sudo ./sys_info.sh -f sys_info_page.html "
@@ -60,9 +64,10 @@ $ sudo ./sys_info.sh -f sys_info_page.html "
 
 # Trap Demo
 simple signal handling demo. will execute an echo command each time either the SIGINT or SIGTERM signal is received while the script is running.
+
 **Example Usage:**
 ```shell
-$ ./trap_demo.sh "
+$ ./trap_demo.sh 
 Iteration 1 of 5
 ^C
 I am ignoring you.
